@@ -1,5 +1,10 @@
 package com.lcc.jk.vo;
 
+import java.util.List;
+
+import com.lcc.jk.domain.Contract;
+import com.lcc.jk.domain.Factory;
+
 public class ContractProductVO {
 private String id;
 	

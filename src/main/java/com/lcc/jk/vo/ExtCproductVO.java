@@ -1,5 +1,8 @@
 package com.lcc.jk.vo;
 
+import com.lcc.jk.domain.ContractProduct;
+import com.lcc.jk.domain.Factory;
+
 public class ExtCproductVO {
 private String id;
 	
