@@ -167,6 +167,7 @@ public class PageInterceptor implements Interceptor {
 		// 通过mappedStatement、参数对象page和BoundSql对象countBoundSql建立一个用于设定参数的ParameterHandler对象
 		ParameterHandler parameterHandler = new DefaultParameterHandler(mappedStatement, page, countBoundSql);
 		// 通过connection建立一个countsql对应的PreparedStatment对象
+		
 		PreparedStatement mstmt = null;
 		ResultSet rSet = null;
 		try {
