@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.lcc.jk.dao.BaseDao;
 import com.lcc.jk.pagination.Page;
 
-public class BaseDaoImpl<T> extends SqlSessionDaoSupport implements BaseDao<T>{
+public abstract class BaseDaoImpl<T> extends SqlSessionDaoSupport implements BaseDao<T>{
 
 	@Autowired
 	//mybatis-spring 1.0无须此方法， mybatis-spring1.2必须注入
